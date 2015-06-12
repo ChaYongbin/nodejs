@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'nedb', '--save' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json memoServer@1.0.0 No description
+5 warn package.json memoServer@1.0.0 No repository field.
+6 warn package.json memoServer@1.0.0 No README data
+7 silly cache add args [ 'nedb', null ]
+8 verbose cache add spec nedb
+9 silly cache add parsed spec { raw: 'nedb',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'nedb',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 verbose addNamed nedb@*
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange *
+13 silly addNameRange { name: 'nedb', range: '*', hasData: false }
+14 silly mapToRegistry name nedb
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/nedb
+18 verbose addNameRange registry:https://registry.npmjs.org/nedb not in flight; fetching
+19 verbose request uri https://registry.npmjs.org/nedb
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 17:25:46
+22 verbose request id 3441ccc1a8bc4bf3
+23 http request GET https://registry.npmjs.org/nedb
+24 http 200 https://registry.npmjs.org/nedb
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"5AUAOWNIT3SK6AFJM8IOO4U26"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     'content-length': '126189',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Fri, 12 Jun 2015 08:25:44 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-hkg6824-HKG',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1434097543.431260,VS0,VE932',
+25 silly get     vary: 'Accept' } ]
+26 verbose get saving nedb to /Users/chayongbin/.npm/registry.npmjs.org/nedb/.cache.json
+27 silly addNameRange number 2 { name: 'nedb', range: '*', hasData: true }
+28 silly addNameRange versions [ 'nedb',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4',
+28 silly addNameRange     '0.3.5',
+28 silly addNameRange     '0.3.6',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.7.4',
+28 silly addNameRange     '0.7.5',
+28 silly addNameRange     '0.7.6',
+28 silly addNameRange     '0.7.7',
+28 silly addNameRange     '0.7.8',
+28 silly addNameRange     '0.7.9',
+28 silly addNameRange     '0.7.10',
+28 silly addNameRange     '0.7.11',
+28 silly addNameRange     '0.7.12',
+28 silly addNameRange     '0.7.13',
+28 silly addNameRange     '0.7.14',
+28 silly addNameRange     '0.7.15',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.4',
+28 silly addNameRange     '0.8.5',
+28 silly addNameRange     '0.8.6',
+28 silly addNameRange     '0.8.7',
+28 silly addNameRange     '0.8.8',
+28 silly addNameRange     '0.8.9',
+28 silly addNameRange     '0.8.10',
+28 silly addNameRange     '0.8.11',
+28 silly addNameRange     '0.8.12',
+28 silly addNameRange     '0.8.13',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '0.10.0',
+28 silly addNameRange     '0.10.1',
+28 silly addNameRange     '0.10.2',
+28 silly addNameRange     '0.10.3',
+28 silly addNameRange     '0.10.4',
+28 silly addNameRange     '0.10.5',
+28 silly addNameRange     '0.10.6',
+28 silly addNameRange     '0.10.7',
+28 silly addNameRange     '0.10.9',
+28 silly addNameRange     '0.10.10',
+28 silly addNameRange     '0.10.11',
+28 silly addNameRange     '0.11.0',
+28 silly addNameRange     '0.11.1',
+28 silly addNameRange     '0.11.2',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2' ] ]
+29 verbose addNamed nedb@1.1.2
+30 silly addNamed semver.valid 1.1.2
+31 silly addNamed semver.validRange 1.1.2
+32 silly mapToRegistry name nedb
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/nedb
+36 verbose addRemoteTarball https://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz',
+37 verbose addRemoteTarball   'f93facaa92b65a3eee4f760017a845bfd8ad1d7f' ]
+38 info retry fetch attempt 1 at 17:25:47
+39 info attempt registry request try #1 at 17:25:47
+40 http fetch GET https://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz
+41 http fetch 200 https://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz
+42 silly fetchAndShaCheck shasum f93facaa92b65a3eee4f760017a845bfd8ad1d7f
+43 verbose addTmpTarball /var/folders/_6/cl2cv6853g7gn19n3clyw9lw0000gn/T/npm-15980-7efdd27d/registry.npmjs.org/nedb/-/nedb-1.1.2.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for nedb@1.1.2
+45 silly cache afterAdd nedb@1.1.2
+46 verbose afterAdd /Users/chayongbin/.npm/nedb/1.1.2/package/package.json not in flight; writing
+47 verbose afterAdd /Users/chayongbin/.npm/nedb/1.1.2/package/package.json written
+48 silly install resolved [ { name: 'nedb',
+48 silly install resolved     version: '1.1.2',
+48 silly install resolved     author: { name: 'Louis Chatriot', email: 'louis.chatriot@gmail.com' },
+48 silly install resolved     contributors: [ [Object] ],
+48 silly install resolved     description: 'File-based embedded data store for node.js',
+48 silly install resolved     keywords: [ 'database', 'datastore', 'embedded' ],
+48 silly install resolved     homepage: 'https://github.com/louischatriot/nedb',
+48 silly install resolved     repository: { type: 'git', url: 'git@github.com:louischatriot/nedb.git' },
+48 silly install resolved     dependencies:
+48 silly install resolved      { async: '0.2.10',
+48 silly install resolved        underscore: '~1.4.4',
+48 silly install resolved        'binary-search-tree': '0.2.4',
+48 silly install resolved        mkdirp: '~0.3.5' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { chai: '1.0.x',
+48 silly install resolved        mocha: '1.4.x',
+48 silly install resolved        request: '2.9.x',
+48 silly install resolved        sinon: '1.3.x',
+48 silly install resolved        'exec-time': '0.0.2',
+48 silly install resolved        commander: '1.1.1' },
+48 silly install resolved     scripts: { test: 'mocha --reporter spec --timeout 10000' },
+48 silly install resolved     main: 'index',
+48 silly install resolved     browser:
+48 silly install resolved      { './lib/customUtils.js': './browser-version/browser-specific/lib/customUtils.js',
+48 silly install resolved        './lib/storage.js': './browser-version/browser-specific/lib/storage.js' },
+48 silly install resolved     licence: 'MIT',
+48 silly install resolved     gitHead: '97615bd534b10d38e2c9b443b2519533bacf0f4e',
+48 silly install resolved     bugs: { url: 'https://github.com/louischatriot/nedb/issues' },
+48 silly install resolved     _id: 'nedb@1.1.2',
+48 silly install resolved     _shasum: 'f93facaa92b65a3eee4f760017a845bfd8ad1d7f',
+48 silly install resolved     _from: 'nedb@*',
+48 silly install resolved     _npmVersion: '1.4.28',
+48 silly install resolved     _npmUser: { name: 'louischatriot', email: 'louis.chatriot@gmail.com' },
+48 silly install resolved     maintainers: [ [Object] ],
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: 'f93facaa92b65a3eee4f760017a845bfd8ad1d7f',
+48 silly install resolved        tarball: 'http://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz' },
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/nedb/-/nedb-1.1.2.tgz' } ]
+49 info install nedb@1.1.2 into /Users/chayongbin/Dropbox/Develop/nodejs/memoServer
+50 info installOne nedb@1.1.2
+51 verbose installOne of nedb to /Users/chayongbin/Dropbox/Develop/nodejs/memoServer not in flight; installing
+52 warn locking Error: EACCES, open '/Users/chayongbin/.npm/_locks/nedb-afbd6a55b5016835.lock'
+52 warn locking     at Error (native)
+52 warn locking  /Users/chayongbin/.npm/_locks/nedb-afbd6a55b5016835.lock failed { [Error: EACCES, open '/Users/chayongbin/.npm/_locks/nedb-afbd6a55b5016835.lock']
+52 warn locking   errno: -13,
+52 warn locking   code: 'EACCES',
+52 warn locking   path: '/Users/chayongbin/.npm/_locks/nedb-afbd6a55b5016835.lock' }
+53 verbose stack Error: Attempt to unlock /Users/chayongbin/Dropbox/Develop/nodejs/memoServer/node_modules/nedb, which hasn't been locked
+53 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+53 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:929:5)
+53 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:933:20
+53 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+53 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+53 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+53 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+54 verbose cwd /Users/chayongbin/Dropbox/Develop/nodejs/memoServer
+55 error Darwin 14.1.0
+56 error argv "node" "/usr/local/bin/npm" "install" "nedb" "--save"
+57 error node v0.12.0
+58 error npm  v2.5.1
+59 error Attempt to unlock /Users/chayongbin/Dropbox/Develop/nodejs/memoServer/node_modules/nedb, which hasn't been locked
+60 error If you need help, you may report this error at:
+60 error     <http://github.com/npm/npm/issues>
+61 verbose exit [ 1, true ]

@@ -1,0 +1,6 @@
+{"author":"park","memo":"test memo !!","date":{"$$date":1434098270564},"_id":"22Eb8XLAxUxY3zMV"}
+{"$$deleted":true,"_id":"22Eb8XLAxUxY3zMV"}
+{"author":"park","memo":"test memo !!","date":{"$$date":1434098379161},"_id":"5MwXEslmyE2tclVE"}
+{"$$deleted":true,"_id":"5MwXEslmyE2tclVE"}
+{"author":"park","memo":"test memo !!","date":{"$$date":1434098433528},"_id":"sX1ofMSMLNrkC7Q5"}
+{"author":"park","memo":"update memo!!","date":{"$$date":1434098433528},"_id":"sX1ofMSMLNrkC7Q5"}
